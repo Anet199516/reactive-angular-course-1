@@ -7,7 +7,8 @@ import {filter, tap} from "rxjs/operators";
 @Component({
   selector: 'courses-card-list',
   templateUrl: './courses-card-list.component.html',
-  styleUrls: ['./courses-card-list.component.scss']
+  styleUrls: ['./courses-card-list.component.scss'],
+
 })
 export class CoursesCardListComponent implements OnInit {
   @Input() courses: Course[] = [];
